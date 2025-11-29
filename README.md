@@ -76,5 +76,4 @@ El objetivo es ofrecer información útil para docentes, estudiantes y cualquier
    
 3. Ejecutar el notebook:
 
-bash
 /notebooks/Social_Media_Addiction.ipynb
