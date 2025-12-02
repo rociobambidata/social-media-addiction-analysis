@@ -1,79 +1,86 @@
-# Social Media Addiction
-### Exploración del impacto del uso de redes sociales en estudiantes
+# Social Media Addiction Analysis
+
+## Exploring the impact of social media use on students' emotional, social and academic wellbeing
+
+This project analyzes how social media habits influence students' mental health, relationships, sleep quality and academic performance.  
+Using the **Students’ Social Media Addiction vs Relationships** dataset from Kaggle, the analysis identifies patterns, tests hypotheses and builds predictive models for addiction levels and academic impact.
+
+The goal is to offer insights for educators, students and anyone interested in understanding how social media usage affects daily life.
 
 ---
 
-## Descripción
+## Dataset
 
-Este proyecto analiza cómo los hábitos de uso de redes sociales influyen en el bienestar emocional, social y académico de estudiantes.  
-Utiliza el dataset *Students’ Social Media Addiction vs Relationships* (Kaggle) para identificar patrones, validar hipótesis y construir modelos predictivos de adicción y afectación académica.
-
-El objetivo es ofrecer información útil para docentes, estudiantes y cualquier persona interesada en comprender cómo las redes afectan la vida cotidiana.
-
----
-
-## Fuente de datos
-
-- Dataset proveniente de **Kaggle**: *Students’ Social Media Addiction vs Relationships*.
-- El archivo CSV está incluido en este repositorio dentro de la carpeta `/data` para facilitar la reproducción del análisis.
-- El notebook utiliza este archivo directamente sin necesidad de descargarlo manualmente.
-
----
-
-## Objetivos del análisis
-
-- Identificar patrones de uso de redes sociales según horas diarias, edad, género y país.  
-- Analizar el impacto en relaciones, sueño, salud mental y rendimiento académico.  
-- Validar hipótesis sobre dependencia y efectos asociados.  
-- Clasificar niveles de adicción mediante machine learning.  
-- Detectar subgrupos de estudiantes con comportamientos similares.
+- **Source:** Kaggle – Students’ Social Media Addiction vs Relationships  
+- Included in the repository under `/data` for full reproducibility  
+- The notebook loads the CSV directly without requiring manual downloads  
+- Variables include:  
+  - Daily hours on social media  
+  - Gender and age  
+  - Sleep hours  
+  - Mental health  
+  - Relationship conflicts  
+  - Academic impact  
+  - Self-reported addiction levels  
 
 ---
 
-## Tecnologías utilizadas
+## Objectives
 
-- **Python**
-- **Pandas**, **NumPy**
-- **Matplotlib**, **Seaborn**
-- **Scikit-learn**
-- **Google Colab**
-
----
-
-## Contenido del repositorio
-- /notebooks → Notebook completo del análisis (.ipynb)
-- /presentation → Presentación del informe (PDF)
-- /requirements.txt → Librerías necesarias para reproducir el proyecto
-- /data → Base de datos utilizados
+- Identify social media usage patterns by hours per day, age, gender and country  
+- Analyze the impact on relationships, sleep, mental health and academic performance  
+- Validate hypotheses about dependency and related effects  
+- Classify addiction levels using machine learning  
+- Detect subgroups of students with similar behaviors  
 
 ---
 
-## Principales hallazgos
+## Tech Stack
 
-- Los estudiantes que utilizan redes sociales más de **6 horas por día** muestran mayores niveles de conflictos interpersonales, peor salud mental y menos horas de sueño.
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn  
+- Google Colab  
 
-- El tiempo de uso diario es el **factor más determinante** para explicar la adicción: a partir de 4 horas de uso, los niveles de dependencia aumentan significativamente.
+---
 
-- La **edad y el género** influyen muy poco en el nivel de adicción; el patrón principal se explica casi exclusivamente por la cantidad de horas conectados.
+## Repository Structure
 
-- A partir de las **5–6 horas diarias**, la probabilidad de que el rendimiento académico se vea afectado se vuelve muy alta, llegando casi al 100% en los niveles de uso más intensos.
+/data
+Students Social Media Addiction.csv
 
-- Se identificaron dos grupos claros de estudiantes:
-  - **Grupo no afectado:** menor uso, más horas de sueño y mejor salud mental.
-  - **Grupo afectado:** mayor uso, menos descanso, peor salud mental y más conflictos.
+/notebooks
+Social_Media_Addiction.ipynb
 
-- Las variables analizadas forman un ciclo consistente:  
-  **más horas en redes → menos sueño → peor salud mental → más conflictos → mayor impacto académico.**
-  
-  ---
+/presentation
+Análisis de adicción a las redes sociales.pdf
 
-## Cómo reproducir el análisis
+requirements.txt
 
-1. **Clonar o descargar** este repositorio.  
-2. Instalar dependencias:  
-   ```bash
-   pip install -r requirements.txt
-   
-3. Ejecutar el notebook:
+---
+
+## Key Findings
+
+- Students using social media **more than 6 hours per day** show higher levels of interpersonal conflict, worse mental health and fewer hours of sleep.  
+- **Daily usage time** is the strongest factor explaining addiction: after **4 hours/day**, dependency levels increase sharply.  
+- **Age and gender** have very little influence on addiction; the main pattern is driven almost entirely by usage hours.  
+- From **5–6 hours/day** onward, the probability of academic impact becomes very high, approaching **100%** for heavy users.  
+- Two clear student groups were identified:  
+  - **Unaffected group:** lower usage, more sleep, better mental health  
+  - **Affected group:** higher usage, less sleep, worse mental health, more conflicts  
+- The variables form a consistent cycle:  
+  **more hours online → less sleep → worse mental health → more conflicts → stronger academic impact**
+
+---
+
+## How to Reproduce
+
+1. Clone or download the repository  
+2. Install dependencies:
+
+pip install -r requirements.txt
+
+3. Run the analysis notebook:
 
 /notebooks/Social_Media_Addiction.ipynb
