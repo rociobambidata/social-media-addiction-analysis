@@ -74,6 +74,43 @@ requirements.txt
 
 ---
 
+## Key Figures
+
+Here are the main visualizations from the social media addiction analysis:
+
+### Categorical Distributions
+![Categorical Distributions](figures/categorical_distributions.png)
+
+### Numerical Distributions (Boxplots)
+![Numerical Distributions (Boxplots)](figures/numerical_distributions_box.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](figures/correlation_heatmap.png)
+
+### Usage vs Conflicts / Mental Health
+![Usage vs Conflicts](figures/usage_vs_conflicts.png)
+![Usage vs Mental Health](figures/usage_vs_mental_health.png)
+
+### Age & Usage vs Addiction Level
+![Age & Usage vs Addiction Level](figures/boxplots_age_usage_vs_addiction.png)
+
+### Academic Impact
+![Academic Impact Pie](figures/academic_impact_pie.png)
+![Usage vs Academic Impact](figures/usage_vs_academic_impact.png)
+
+### Pairplots
+![Pairplot Addiction](figures/pairplot_addiction.png)
+![Pairplot Habits & Academic](figures/pairplot_habits_academic.png)
+
+### Multivariate / Subgroup Analysis
+![Scatter Multivariate Addiction](figures/scatter_multivariate_addiction.png)
+![Scatter Usage, Sleep & Mental](figures/scatter_usage_sleep_mental.png)
+![Subgroup Correlation Heatmap](figures/subgroup_correlation_heatmap.png)
+
+> Full analysis and additional charts are available in the notebook under `/notebooks/Social_Media_Addiction_Analysis.ipynb`.
+
+---
+
 ## How to Reproduce
 
 1. Clone or download the repository  
