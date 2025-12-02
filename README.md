@@ -46,7 +46,7 @@ The goal is to offer insights for educators, students and anyone interested in u
 ---
 
 ## Repository Structure
-
+```
 /data
 Students Social Media Addiction.csv
 
@@ -57,7 +57,7 @@ Social_Media_Addiction.ipynb
 Análisis de adicción a las redes sociales.pdf
 
 requirements.txt
-
+```
 ---
 
 ## Key Findings
@@ -78,9 +78,10 @@ requirements.txt
 
 1. Clone or download the repository  
 2. Install dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 3. Run the analysis notebook:
-
+```
 /notebooks/Social_Media_Addiction.ipynb
+```
